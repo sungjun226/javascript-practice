@@ -1,63 +1,63 @@
-let person = {
-    name = "임성준",
-    age = "22"
-}
+// let person = {
+//     name = "임성준",
+//     age = "22"
+// }
 
-console.log(person.name)
-console.log(person.age)
-
-
-let name = "sungjun"
-let age = 22
-let residence = "busan"
-
-console.log(typeof name)
-console.log(typeof age)
-console.log(typeof residence)
+// console.log(person.name)
+// console.log(person.age)
 
 
-let a = 30
-let b = 10
+// let name = "sungjun"
+// let age = 22
+// let residence = "busan"
 
-console.log(a+b)
-console.log(a-b)
-console.log(a*b)
-console.log(a/b)
-console.log(a%b)
+// console.log(typeof name)
+// console.log(typeof age)
+// console.log(typeof residence)
 
 
-let firstName = "lim"
-let lastName = "sungjun"
+// let a = 30
+// let b = 10
 
-console.log(firstName , lastName)
+// console.log(a+b)
+// console.log(a-b)
+// console.log(a*b)
+// console.log(a/b)
+// console.log(a%b)
 
-let inputAge = 17
 
-if (inputAge >= 18) {
-    console.log("성인입니다")
-}else {
-    console.log("미성년자 입니다.")
-}
+// let firstName = "lim"
+// let lastName = "sungjun"
 
-let adult = "성인"
-let child = "미성년자"
+// console.log(firstName , lastName)
 
-console.log(inputAge >= 18 ? adult : child)
+// let inputAge = 17
 
-let arr = ['yellow' , 'blue' , 'black']
+// if (inputAge >= 18) {
+//     console.log("성인입니다")
+// }else {
+//     console.log("미성년자 입니다.")
+// }
 
-console.log(arr[0],arr[1],arr[2])
+// let adult = "성인"
+// let child = "미성년자"
 
-let arr1 = [1,2,3,4]
-let sum = arr1.reduce((a,b) => {
-    return a+b
-})
+// console.log(inputAge >= 18 ? adult : child)
 
-console.log(sum)
+// let arr = ['yellow' , 'blue' , 'black']
 
-let boolean1 = true
-let boolean2 = false
+// console.log(arr[0],arr[1],arr[2])
 
-console.log(boolean1 && boolean2)
-console.log(boolean1 || boolean2)
-console.log(!boolean1, !boolean2)
+// let arr1 = [1,2,3,4]
+// let sum = arr1.reduce((a,b) => {
+//     return a+b
+// })
+
+// console.log(sum)
+
+// let boolean1 = true
+// let boolean2 = false
+
+// console.log(boolean1 && boolean2)
+// console.log(boolean1 || boolean2)
+// console.log(!boolean1, !boolean2)
