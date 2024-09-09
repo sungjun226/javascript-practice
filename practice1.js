@@ -91,13 +91,13 @@
 // console.log(add(2,6)); // 8
 
 // 12. 주어진 수가 짝수인지 홀수인지 판단하는 조건문을 작성하세요.
-// let num = 7;
+let num = 7;
 
-// if (num % 2 == 0) {
-//     console.log('짝수')
-// }else {
-//     console.log(홀수)
-// }
+if (num % 2 == 0) {
+    console.log('짝수')
+}else {
+    console.log('홀수')
+}
 
 // 13. 1부터 10까지의 숫자를 출력하는 for 반복문을 작성하세요.
 
