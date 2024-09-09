@@ -1,3 +1,12 @@
+let person = {
+    name = "임성준",
+    age = "22"
+}
+
+console.log(person.name)
+console.log(person.age)
+
+
 let name = "sungjun"
 let age = 22
 let residence = "busan"
@@ -5,6 +14,7 @@ let residence = "busan"
 console.log(typeof name)
 console.log(typeof age)
 console.log(typeof residence)
+
 
 let a = 30
 let b = 10
