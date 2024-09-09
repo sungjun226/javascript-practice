@@ -33,3 +33,21 @@ let adult = "성인"
 let child = "미성년자"
 
 console.log(inputAge >= 18 ? adult : child)
+
+let arr = ['yellow' , 'blue' , 'black']
+
+console.log(arr[0],arr[1],arr[2])
+
+let arr1 = [1,2,3,4]
+let sum = arr1.reduce((a,b) => {
+    return a+b
+})
+
+console.log(sum)
+
+let boolean1 = true
+let boolean2 = false
+
+console.log(boolean1 && boolean2)
+console.log(boolean1 || boolean2)
+console.log(!boolean1, !boolean2)
