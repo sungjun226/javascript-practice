@@ -126,13 +126,13 @@
 
 
 // 16. 배열의 각 요소에 2를 곱한 새로운 배열을 반환하는 코드를 작성하세요.
-let numbers = [1, 2, 3, 4];
+// let numbers = [1, 2, 3, 4];
 
-let arr1 = numbers.map((a) => {
-    return a*2
-})
+// let arr1 = numbers.map((a) => {
+//     return a*2
+// })
 
-console.log(arr1)
+// console.log(arr1)
 
 // 17. 배열에서 짝수만 필터링하는 코드를 작성하세요.
 // let numbers = [1, 2, 3, 4, 5, 6];
