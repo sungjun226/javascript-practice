@@ -104,24 +104,27 @@
 
 // 14 다음 코드를 고차 함수를 사용해 중복을 줄여보세요.
 
-// function repeatTwice() {
-//   console.log("Repeated twice");
-//   console.log("Repeated twice");
-// }
-
-// function repeatThrice() {
-//   console.log("Repeated thrice");
-//   console.log("Repeated thrice");
-//   console.log("Repeated thrice");
-// }
-
-// function compose(a,b) {
-//     return function(){
-//         return a(b())
+// function repeat (n,action) {
+//     for (let i = 0; i < n; i++) {
+//         action()
 //     }
 // }
 
-// compose(repeatTwice(),repeatThrice())
+// function repeatTwice() {
+//     repeat(2,() => {
+//         console.log("Repeated twice")
+//     })
+// }
+
+// function repeatThrice() {
+//     repeat(3,() => {
+//         console.log("Repeated thrice")
+//     })
+// }
+
+// repeatTwice()
+// repeatThrice()
+
 
 // 15 클로저의 특성상 내부 함수에서 외부 함수의 변수를 참조할 수 있는데, 이때 외부 함수가 종료된 후에도 그 변수가 사라지지 않는 이유는 무엇인가요?
 // 클로저가 생성될 때 함수가 선언된 어휘적 환경(Lexical Environment)을 기억하기 때문입니다.
@@ -285,7 +288,6 @@
 //     console.log(`Hello, I am ${this.name}. Job title :${this.jobTitle}`);
 //   }
 
-
 //   // greet 메서드 오버라이딩
 // }
 
@@ -308,7 +310,6 @@
 // counter(); // 2
 // counter(); // 4
 
-
 // 28 고차 함수 reduce를 사용하여 배열 [1, 2, 3, 4, 5]의 요소를 모두 더하는 코드를 작성하세요.
 
 // const numbers = [1, 2, 3, 4, 5];
@@ -316,3 +317,4 @@
 // // reduce를 사용한 합계 계산
 // const sum = numbers.reduce((a,b) => a+b);
 // console.log(sum); // 15
+
